@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+	<link rel="stylesheet" type="text/css" href="css/home.css">
+
+	<script type="text/javascript" src="js/icons.js"></script>
+
+	<title>Home</title>
+</head>
+
+<body>
+
+
+	<nav id="mainNavbar" class="navbar bg-dark navbar-dark navbar-expand-md py-0 fixed-top">
+		<div class="container">
+			<a href="php/table.php" class="navbar-brand text-info myBar"><i class="fas fa-list mr-1"></i></a>
+			<a href="php/table.php" class="navbar-brand text-white myBar"> Transactions</a>
+			<!-- <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks"
+				aria-label="Toggle Navigation">
+				<span class="navbar-toggler-icon">
+				</span>
+			</button> -->
+			<!-- <div class="collapse navbar-collapse" id="navLinks" data-toggle="buttons"> -->
+				<ul class="navbar-nav mr-auto">
+					<!-- <li class="nav-item">
+						<a href="" class="nav-link">Home</a>
+					</li> -->
+					<li class="nav-item">
+						<a href="empty.html" class="nav-link">About</a>
+					</li>
+					<!-- <li class="nav-item">
+						<a href="" class="nav-link">Order</a>
+					</li> -->
+				</ul>
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a href="php/addForm.php" id="newBrand"
+							class="navbar-brand btn btn-outline-info py-0 my-1 newBrand text-white"><i
+								class="fas fa-plus text-info mr-2"></i>Quick Add</a>
+					</li>
+				</ul>
+			<!-- </div> -->
+		</div>
+	</nav>
+
+
+	<header id="header" class="jumbotron text-center">
+		<h1 class="display-3">WELCOME</h1>
+		<p class="lead">Manage with all transactions fast and easily</p>
+		<a href="empty.html" class="btn btn-info">Do Something</a>
+		<a href="empty.html" class="btn btn-success">Do Another Thing</a>
+	</header>
+
+
+	<article id="gallery">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 mb-4">
+					<div class="card">
+						<img src="pictures/add.jpg"
+							class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Add New Transaction</h5>
+							<p class="card-text">You can add new transaction to the existing table.</p>
+							<a href="php/addForm.php" class="btn btn-outline-success btn-sm">Add</a>
+							<a href="#" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 mb-4">
+					<div class="card">
+						<img src="pictures/delete.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Delete Transaction</h5>
+							<p class="card-text">You can delete existing transaction from the table.</p>
+							<a href="php/getid.php" target="_blank" class="btn btn-outline-success btn-sm">Delete</a>
+							<a href="#" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 mb-4">
+					<div class="card">
+						<img src="pictures/update.jpg" class="card-img-top"
+							alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Update Transaction</h5>
+							<p class="card-text">You can update chosen(correctly) transaction.</p>
+							<a href="php/getUpdate.php" class="btn btn-outline-success btn-sm">Update</a>
+							<a href="#" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</article>
+
+
+	<footer>
+		<div class="card bg-dark border-top border-right rounded-0">
+			<div class="card-header bg-info text-white py-1 my-0 py-2">
+				FOOTER
+			</div>
+			<div class="card-body">
+				<p class="text-warning">Contact With Us</p>
+				<div class="mb-0 bg-dark text-white">
+					<a href="" class="btn btn-outline-info">
+						<i class="fab fa-facebook-f fa-lg"></i></i>
+					</a>
+					<a href="" class="btn btn-outline-info">
+						<i class="fab fa-twitter fa-lg"></i></i>
+					</a>
+					<a href="" class="btn btn-outline-info">
+						<i class="fab fa-google fa-lg"></i>
+					</a>
+					<a href="" class="btn btn-outline-info">
+						<i class="fab fa-youtube fa-lg"></i>
+					</a>
+					<div>
+						<div id="footerRight" class="card-footer bg-transparent text-warning">&copy;Copyright (GOOD BOYS
+							CORPORATION)&trade;</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+
+	<!-- 	<script type="text/javascript" src="js/jquery.js"></script>
+ -->
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+
+
+
+
+
+</body>
+
+</html>

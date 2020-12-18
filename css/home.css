@@ -1,0 +1,34 @@
+#header{
+	background: url("../pictures/bricks.jpg") center center;
+	background-size: cover;
+	background-repeat: no-repeat;	
+}
+
+#mainNavbar .nav-link:hover{
+	color: #17a2b8 !important;
+}
+
+#mainNavbar .fa-plus:hover{
+	color: white !important;
+}
+
+#mainNavbar .fa-list:hover{
+	color: white !important;
+}
+
+#mainNavbar .myBar:hover{
+	color: #17a2b8 !important;
+}
+
+#newBrand:hover .fa-plus{
+	color:white !important;
+}
+
+#footerRight{
+	margin-left: 65%;
+	margin-right: 5%;
+}
+
+#iconNone:active{
+	display: none !important;
+}

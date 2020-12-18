@@ -1,0 +1,123 @@
+html, body {
+    margin: 0;
+    background-color: #28a745;
+    height: 100%;
+    overflow: hidden;
+}
+
+form{
+    background-color: white;
+    margin: 6% auto;
+    width: 25%;
+    border-radius: 80px 0;
+    height: 450px;
+    padding-bottom: 0;
+}
+
+#heading{
+    display: block;
+    margin: 0 15%;
+    width: 90%;
+    padding: 5%;
+    color: #28a745;
+    font-size: 30px;
+}
+
+input{
+    border: none;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #28a745;
+    opacity: 0.9; /* Firefox */
+}
+
+.text, select{
+    border-bottom: 1px solid #28a745;
+    height: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    font-size: 17px;
+    color: #28a745;
+}
+
+input[type=date]{
+    margin-top:3%;
+}
+
+input[type=date]::-webkit-inner-spin-button, 
+input[type=date]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+select{
+    margin-top:5%;
+    border: none;
+}
+
+.check{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.login{
+    border: none;
+    color: white;
+    margin-top: 5%;
+    background-color: #28a745;
+    height: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    border-radius: 15px;
+}
+
+.sign{
+    display: block;
+    height: 10%;
+    margin: 0 auto;
+    width: 60%;
+    padding: 5% 5% 0 5%;
+}
+
+a,a:visited{
+    color: #28a745;
+}
+
+.inputId{
+    height: 20px;
+    margin: 2% auto;
+    border: none;
+    padding: 1%;
+}
+
+.nese{
+    width: 50%;
+    margin: 0 auto;
+    color: white;
+}
+
+#buttonId{
+    border: none;
+    height: 34px;
+    background-color: white;
+}
+
+#labelId{
+    font-size: 25px;
+    padding-top: 2%;
+    padding-right: 2%;
+}
+
+#zero{
+    background-color: #28a745;
+    margin:0;
+    width: 100%;
+    border: none;
+    height: 100%;
+    padding: 0;
+    border-radius: 0;
+}

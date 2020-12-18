@@ -1,0 +1,48 @@
+body{
+    background-color:#212529;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size:17px;
+  text-align:center;
+  font-weight:bold;
+}
+
+thead{
+    background-color:#212529;
+    color:white;
+}
+
+td, th {
+    margin: 0;
+    padding: 0;   
+    padding: 2%;
+}
+
+tr:hover{
+  background-color: white;
+  color: #212529;
+}
+
+tr:nth-child(2n+1):hover {
+  background-color: white;
+  color: #17a2b8;
+}
+
+tr:nth-child(2n+1) {
+  background-color: #17a2b8;
+}
+
+div{
+    font-family: arial, sans-serif;
+    margin: 0 10%;
+    background-color:#212529;
+}
+
+h1{
+    text-align:center;
+    width:100%;  
+    color:white; 
+}
